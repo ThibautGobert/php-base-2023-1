@@ -23,6 +23,65 @@
 </div>
 <!-- Ecrivez votre code ci-dessous -->
 
+<div>
+    <div>
+        <?php for($i = 0; $i < 10; $i++){ ?>
+            <h3>Coucou la boucle</h3>
+        <?php } ?>
+    </div>
+</div>
+
+
+<div class="row">
+    <?php for($i = 0; $i < 10; $i++): ?>
+    <div class="col-md-3">
+        <?php for($j = 0; $j < 10; $j++): ?>
+            <h3>Coucou la boucle</h3>
+        <?php endfor; ?>
+    </div>
+    <?php endfor; ?>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-bordered table-striped">
+            <thead>
+            <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>  <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>  <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>  <tr>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+                <td>test</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
 
 
 
