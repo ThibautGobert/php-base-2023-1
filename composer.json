@@ -1,0 +1,19 @@
+{
+    "name": "iepsa/php_base",
+    "autoload": {
+        "psr-4": {
+            "Iepsa\\PhpBase\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thibaut",
+            "email": "tg@bms-engineering.lu"
+        }
+    ],
+    "require": {
+        "php": "^8.0.2",
+        "symfony/var-dumper": "^6.2",
+        "altorouter/altorouter": "^2.0"
+    }
+}
