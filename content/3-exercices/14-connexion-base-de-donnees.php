@@ -18,36 +18,6 @@
 <!-- Ecrivez votre code ci-dessous -->
 <?php
 
-/**
- * Données de connexion à la base de données
- */
-$dsn = 'mysql:host=127.0.0.1;dbname=todolist';
-$username = 'root';
-$password = '';
-
-try {
-    $pdo = new PDO($dsn, $username, $password);
-    $statement = $pdo->query('select * from users');
-    $users = $statement->fetchAll(PDO::FETCH_ASSOC);
-    foreach($users as $user) {
-        echo 'id='. $user['id']. ' '. $user['name'] . '<br>';
-    }
-
-    $pdo->query("update users set name='Thibaut' where id=1");
-
-    echo '<hr>';
-    $statement = $pdo->query('select * from users');
-    $users = $statement->fetchAll(PDO::FETCH_ASSOC);
-
-    foreach($users as $user) {
-        echo 'id='. $user['id']. ' '. $user['name'] . '<br>';
-    }
-
-} catch (PDOException $e) {
-    echo 'Connexion échouée : ' . $e->getMessage();
-}
-
-
 
 
 

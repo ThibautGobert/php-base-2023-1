@@ -18,6 +18,13 @@
 <!-- Ecrivez votre code ci-dessous -->
 <?php
 
+if(count($_GET) > 0) {
+    dd($_GET);
+}else {
+    echo 'Aucun paramètres dans l\'URL';
+}
+
+
 
 
 
