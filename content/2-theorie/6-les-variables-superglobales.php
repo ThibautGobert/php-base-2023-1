@@ -31,3 +31,13 @@
     </div>
 </div>
 
+
+<form action="" method="post" enctype="multipart/form-data">
+    <input type="text" class="form-control" name="prenom">
+    <input type="text" class="form-control" name="nom">
+    <input type="file" name="photo" class="form-control">
+    <button class="btn btn-success" type="submit">Envoyer</button>
+</form>
+<?php
+dd($_GET);
+
