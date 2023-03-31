@@ -27,7 +27,7 @@ Pour ajouter un élément à un menu, il suffit d'ajouter un fichier .php dans l
 - Configurer un virtual host pour qu'il pointe sur le fichier index.php dans le dossier public (si vous utilisez Laragon, il le créera pour vous).
 - Copier/coller le fichier config.exemple.php et le renommer en config.php
 - Si tout est bien configuré vous pouvez accéder à l'application via l'url définie dans votre virtual host;
-- *Le dossier vendor est inclus dans le repository, normalement il ne doit pas être versionné, mais l'a été pour facilité sont installation, nous reviendrons là-dessus plus tard dans le cours*.
+- *Le dossier vendor est inclus dans le repository, normalement il ne doit pas être versionné, mais l'a été pour faciliter l'installation, nous reviendrons là-dessus plus tard dans le cours*.
 
 ### Resources utilisées
 -  [php.net](https://www.php.net/) : Site officiel de PHP.
