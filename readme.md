@@ -36,7 +36,3 @@ Pour ajouter un élément à un menu, il suffit d'ajouter un fichier .php dans l
 -  [Site web Grafikart](https://grafikart.fr/formations/php) : Formation PHP sur grafikart.fr.
 -  [Udemy](https://www.udemy.com/course/php-formation-complete-pour-debutants/) : Formation PHP sur Udemy.
 -  [pPhind](https://www.phind.com/) : phind pour la rédaction (**attention : Phind a été utilisé comme un outil d'aide à la rédaction, pas comme une source de connaissance**).
-
-
-
-test rebase

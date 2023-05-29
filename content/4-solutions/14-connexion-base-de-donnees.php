@@ -22,8 +22,8 @@
  * Données de connexion à la base de données
  */
 $dsn = 'mysql:host=127.0.0.1;dbname=todolist';
-$username = 'root';
-$password = '';
+$username = getConfig('mysql_username');
+$password = getConfig('mysql_password');
 
 try {
     $pdo = new PDO($dsn, $username, $password);
